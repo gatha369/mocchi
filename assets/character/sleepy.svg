@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="400" height="400"><defs>
+  <radialGradient id="body" cx="42%" cy="35%" r="70%">
+    <stop offset="0%" stop-color="#FFFDF8"/>
+    <stop offset="55%" stop-color="#FFEFE3"/>
+    <stop offset="100%" stop-color="#F6D3C4"/>
+  </radialGradient>
+  <radialGradient id="orb" cx="40%" cy="35%" r="65%">
+    <stop offset="0%" stop-color="#FFFFFF"/>
+    <stop offset="45%" stop-color="#FFF3A8"/>
+    <stop offset="100%" stop-color="#FFC94D"/>
+  </radialGradient>
+  <radialGradient id="orbGlow" cx="50%" cy="50%" r="50%">
+    <stop offset="0%" stop-color="#FFE98A" stop-opacity="0.7"/>
+    <stop offset="100%" stop-color="#FFE98A" stop-opacity="0"/>
+  </radialGradient>
+  <radialGradient id="cheek" cx="50%" cy="50%" r="50%">
+    <stop offset="0%" stop-color="#FF9FA8" stop-opacity="0.75"/>
+    <stop offset="100%" stop-color="#FF9FA8" stop-opacity="0"/>
+  </radialGradient>
+  <radialGradient id="eye" cx="50%" cy="40%" r="60%">
+    <stop offset="0%" stop-color="#5A4A6E"/>
+    <stop offset="100%" stop-color="#2B2235"/>
+  </radialGradient>
+</defs>
+  <ellipse cx="100" cy="178" rx="46" ry="6" fill="#000" opacity="0.10"/>
+  <g transform="translate(100 176) scale(1 0.96) translate(-100 -176)">
+    <!-- feet -->
+    <ellipse cx="80" cy="175" rx="13" ry="7" fill="#F3C9B8"/>
+    <ellipse cx="120" cy="175" rx="13" ry="7" fill="#F3C9B8"/>
+    <!-- body -->
+    <path d="M100 58
+             C 146 58, 166 98, 164 132
+             C 162 162, 136 174, 100 174
+             C 64 174, 38 162, 36 132
+             C 34 98, 54 58, 100 58 Z"
+          fill="url(#body)" stroke="#E9B9A7" stroke-width="2"/>
+    <!-- arm nubs -->
+    <ellipse cx="44" cy="152" rx="8" ry="10" fill="#FBE2D6" stroke="#E9B9A7" stroke-width="2" transform="rotate(35 44 152)"/>
+    <ellipse cx="156" cy="152" rx="8" ry="10" fill="#FBE2D6" stroke="#E9B9A7" stroke-width="2" transform="rotate(-35 156 152)"/>
+    <!-- belly sheen -->
+    <ellipse cx="78" cy="84" rx="16" ry="9" fill="#FFFFFF" opacity="0.7" transform="rotate(-25 78 84)"/>
+    <!-- sprout antenna -->
+    <path d="M100 60 C 98 46, 106 38, 112 30" fill="none" stroke="#9CCB8E" stroke-width="3.5" stroke-linecap="round"/>
+    <path d="M102 50 C 92 44, 88 48, 86 52 C 92 54, 98 53, 102 50 Z" fill="#B7DDA8"/>
+    <circle cx="114" cy="26" r="8" fill="#F4E6C0" stroke="#E5C88A" stroke-width="1.5"/>
+    <path d="M66 120 Q76 126 86 120" fill="none" stroke="#2B2235" stroke-width="3.5" stroke-linecap="round"/>
+    <path d="M114 120 Q124 126 134 120" fill="none" stroke="#2B2235" stroke-width="3.5" stroke-linecap="round"/><ellipse cx="62" cy="134" rx="13" ry="8" fill="url(#cheek)"/>
+    <ellipse cx="138" cy="134" rx="13" ry="8" fill="url(#cheek)"/><ellipse cx="100" cy="138" rx="3" ry="3.5" fill="#5A3A3A" opacity="0.8"/>
+  </g>
+  <g fill="#8E86B5" font-family="sans-serif" font-weight="bold"><text x="140" y="70" font-size="16">z</text><text x="152" y="54" font-size="20">z</text><text x="166" y="36" font-size="24">Z</text></g></svg>

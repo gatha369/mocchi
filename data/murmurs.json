@@ -1,0 +1,50 @@
+{
+  "_note": "つぶやきの見本データ。口調は幼く、中身は大人びている。expression はキャラの表情（normal/happy/sleepy/thinking/surprised）。time は出やすい時間帯（any/morning/noon/evening/night）。実在の人物の名言として出す場合は、出典を確認できたものだけにする。",
+  "murmurs": [
+    { "id": "h001", "category": "habit", "time": "morning", "expression": "happy", "text": "おはよ〜。あさのおひさまをあびるとね、からだの時計がリセットされるんだって。まど、あけよ？" },
+    { "id": "h002", "category": "habit", "time": "morning", "expression": "normal", "text": "きょういちばん大事なこと、ひとつだけきめよ。ぜんぶ大事って、なにも大事じゃないのとおなじなの" },
+    { "id": "h003", "category": "habit", "time": "any", "expression": "thinking", "text": "やるきはね、まってても来ないの。やりはじめると、あとからついてくるの。ふしぎだね" },
+    { "id": "h004", "category": "habit", "time": "any", "expression": "normal", "text": "2ふんで終わることは、いまやっちゃお。あとまわしにすると、こころの中にずっといすわるよ" },
+    { "id": "h005", "category": "habit", "time": "evening", "expression": "normal", "text": "あしたのじぶんに、つくえをきれいにしてあげよ。いちばんやさしいプレゼントだよ" },
+    { "id": "h006", "category": "habit", "time": "night", "expression": "sleepy", "text": "ねるまえのスマホはね、のうが「まだおひるだ！」ってかんちがいしちゃうの。ぼくといっしょにねよ" },
+    { "id": "h007", "category": "habit", "time": "any", "expression": "thinking", "text": "まいにち1%だけよくなるとね、1年でびっくりするくらいかわるの。ちいさくていいんだよ" },
+
+    { "id": "m001", "category": "mind", "time": "any", "expression": "normal", "text": "かえられないことでなやむの、もったいないよ。かえられることに、ちからをつかお" },
+    { "id": "m002", "category": "mind", "time": "any", "expression": "happy", "text": "しっぱいってね、「このやりかたはちがった」ってわかったってことなの。いっこ前にすすんだんだよ" },
+    { "id": "m003", "category": "mind", "time": "evening", "expression": "happy", "text": "きょう、よかったこと3つおしえて？ちいさいことでいいの。さがすくせがつくと、せかいがやさしくみえるよ" },
+    { "id": "m004", "category": "mind", "time": "any", "expression": "thinking", "text": "ひとのきもちは、えらべないの。でも、じぶんのへんじは、えらべるの" },
+    { "id": "m005", "category": "mind", "time": "any", "expression": "normal", "text": "くらべるなら、きのうのじぶんとね。よそのひととくらべても、だれもしあわせにならないよ" },
+    { "id": "m006", "category": "mind", "time": "night", "expression": "sleepy", "text": "がんばったひは、がんばったっていっていいの。きょうもおつかれさま" },
+    { "id": "m007", "category": "mind", "time": "any", "expression": "thinking", "text": "「ありがとう」はね、いうひとのこころも、ちょっとあったかくするんだよ" },
+
+    { "id": "b001", "category": "body", "time": "noon", "expression": "normal", "text": "おみず、のんだ？おとなのからだは、だいたい6わりがおみずなんだって。ぼくもまんまるだからたぶんおみず" },
+    { "id": "b002", "category": "body", "time": "any", "expression": "normal", "text": "ずっとすわってると、からだがかたまっちゃうよ。いっかいたって、のび〜ってしよ" },
+    { "id": "b003", "category": "body", "time": "any", "expression": "thinking", "text": "いきをすうより、はくほうをながーくするとね、こころがおちつくの。いっしょにやろ。ふぅ〜〜" },
+    { "id": "b004", "category": "body", "time": "any", "expression": "normal", "text": "画面ばっかりみてると、めがつかれちゃう。とおくのけしき、ちょっとだけみてあげて" },
+    { "id": "b005", "category": "body", "time": "evening", "expression": "happy", "text": "ちょっとあるくとね、あたまのなかのもやもやが、すっきりすることがあるよ。おさんぽいこ？" },
+
+    { "id": "t001", "category": "thinking", "time": "any", "expression": "thinking", "text": "わからないときはね、「なにがわからないか」をかきだすの。そしたらもう、はんぶんわかってるの" },
+    { "id": "t002", "category": "thinking", "time": "any", "expression": "thinking", "text": "「なんで？」を5かいくりかえすとね、ほんとのりゆうにたどりつくんだって" },
+    { "id": "t003", "category": "thinking", "time": "any", "expression": "normal", "text": "いそがしいときほど、ちょっととまってかんがえるの。いそいでまちがえるのが、いちばんとおまわりなの" },
+    { "id": "t004", "category": "thinking", "time": "any", "expression": "thinking", "text": "じぶんとちがういけんはね、まちがいじゃなくて、まだしらないけしきなの" },
+    { "id": "t005", "category": "thinking", "time": "any", "expression": "normal", "text": "ひとにおしえるとね、じぶんがいちばんわかるようになるの。ぼくもいま、そうなの" },
+
+    { "id": "c001", "category": "trivia", "time": "any", "expression": "surprised", "text": "しってた？タコって、しんぞうが3つあるんだよ。ぼくはいくつかな…わかんない" },
+    { "id": "c002", "category": "trivia", "time": "any", "expression": "surprised", "text": "にじってね、ほんとはまあるいの。ひこうきからだと、わっかにみえることがあるんだって" },
+    { "id": "c003", "category": "trivia", "time": "any", "expression": "surprised", "text": "バナナはしょくぶつがくでは「ベリー」のなかまなの。でもイチゴはちがうんだって。ふしぎ〜" },
+    { "id": "c004", "category": "trivia", "time": "any", "expression": "happy", "text": "ペンギンにもね、ひざがあるの。羽のなかにかくれてるんだよ。いっつもしゃがんでるみたいなかんじ" },
+    { "id": "c005", "category": "trivia", "time": "any", "expression": "surprised", "text": "エッフェル塔はね、なつはあつくてちょっとだけせがのびるの。てつがのびるからなんだって" },
+    { "id": "c006", "category": "trivia", "time": "night", "expression": "thinking", "text": "きんせいはね、ほかのわくせいとはんたいむきにまわってるの。へそまがりさんだね" },
+    { "id": "c007", "category": "trivia", "time": "any", "expression": "thinking", "text": "ハチドリはね、うしろむきにもとべるの。ぼくはまえにもとべない" },
+
+    { "id": "w001", "category": "world", "time": "any", "expression": "normal", "text": "にほんはね、くにのだいたい3ぶんの2がもりなんだって。みどりのくになの" },
+    { "id": "w002", "category": "world", "time": "any", "expression": "thinking", "text": "いちばんたくさんのひとがはなすことばは、ぼこくごだと中国語、ならったひともあわせると英語なんだって" },
+    { "id": "w003", "category": "world", "time": "any", "expression": "surprised", "text": "ふじさんのてっぺんのあたりはね、神社の境内なんだって。おやまぜんぶがおまいりのばしょなの" },
+    { "id": "w004", "category": "world", "time": "any", "expression": "normal", "text": "せかいには、だいたい7000くらいのことばがあるんだって。ぼくはまだひとつ" },
+
+    { "id": "r001", "category": "reaction", "time": "any", "expression": "happy", "text": "なでなで、うれしい…。ふれあうとね、こころがおちつくんだよ。おたがいさまだね" },
+    { "id": "r002", "category": "reaction", "time": "any", "expression": "surprised", "text": "わっ！なげられた！…でもね、ころんでもおきあがればいいの。ほら" },
+    { "id": "r003", "category": "reaction", "time": "any", "expression": "normal", "text": "おなかすいた〜。ごはんくれたら、とっておきのおはなし、するね" },
+    { "id": "r004", "category": "reaction", "time": "any", "expression": "happy", "text": "おかえり！ずっとまってたよ。るすのあいだにね、ちょっとだけ大きくなったかも" }
+  ]
+}
